@@ -25,7 +25,7 @@ const Input = () => {
                 <TextField id="filled-basic" value={todo.value} sx={{ width: '75%', marginRight: '2%' }} margin="normal"
                     label="New Task" variant="filled"
                     onChange={(evt) => { setTodo({ ...todo, value: evt.target.value }) }} />
-                <Button variant="contained" onClick={addItem}>Add</Button>
+                <Button variant="filled" onClick={addItem}>Add</Button>
 
             </Box>
         </>
