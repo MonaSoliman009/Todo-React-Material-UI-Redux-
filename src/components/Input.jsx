@@ -17,7 +17,7 @@ const Input = () => {
     return (
         <>
             <Box
-                sx={{ display: 'flex', alignItems: 'center', height: 'auto' }}
+                sx={{ display: 'flex', alignItems: 'right', height: 'auto' }}
 
                 noValidate
                 autoComplete="off"
